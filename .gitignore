@@ -16,7 +16,6 @@ __pycache__/
 venv/
 env/
 
-# IDE files
-.idea/
-.vscode/
-*.code-workspace
+# Backups and temporary trajectory dumps
+trajectorySummaries_backup*
+apply_mac_fix.py

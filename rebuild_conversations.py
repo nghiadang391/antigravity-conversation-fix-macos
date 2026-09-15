@@ -1531,7 +1531,7 @@ def is_antigravity_running():
     # path, or another command line that merely contains "antigravity".
     for process_name in (
         "antigravity", "Antigravity", "antigravity-ide",
-        "antigravity ide", "Antigravity IDE",
+        "antigravity ide", "Antigravity IDE", "Antigravity IDE Helper",
     ):
         try:
             result = subprocess.run(
